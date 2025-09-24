@@ -27,7 +27,7 @@ export const projectsData = [
             image2: { link: '/project-devtools-admin.png', alt: 'DevToolsPack: admin page' },
             image3: { link: '/project-devtools-list.png', alt: 'DevToolsPack: admin page list of tools' }
         },
-        linkProject: 'https://devtoolspack.tech',
+        linkProject: 'https://www.devtoolbox.tech/',
         linkGitHub: 'https://github.com/wesjx/devtoolbox'
     },
 
