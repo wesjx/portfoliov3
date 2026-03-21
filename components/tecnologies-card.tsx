@@ -1,8 +1,8 @@
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import { Button } from "./ui/button";
 import { Card, CardHeader } from "./ui/card";
-import { SiCss3, SiHtml5, SiJavascript, SiNextdotjs, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
-import { VscVscode } from "react-icons/vsc";
+import { SiCss3, SiHtml5, SiJavascript, SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiSpring } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 export default function TecnologiesCard() {
 
@@ -80,6 +80,36 @@ export default function TecnologiesCard() {
                                 className="p-1 flex items-center justify-center h-16 w-16"
                                 size="icon"
                             >
+                                <FaJava size={30} />
+                            </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            <p>Java</p>
+                        </TooltipContent>
+                    </Tooltip>
+
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Button
+                                asChild
+                                className="p-1 flex items-center justify-center h-16 w-16"
+                                size="icon"
+                            >
+                                <SiSpring size={30} />
+                            </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                            <p>Spring Boot</p>
+                        </TooltipContent>
+                    </Tooltip>
+
+                    <Tooltip>
+                        <TooltipTrigger asChild>
+                            <Button
+                                asChild
+                                className="p-1 flex items-center justify-center h-16 w-16"
+                                size="icon"
+                            >
                                 <SiNextdotjs size={30} />
                             </Button>
                         </TooltipTrigger>
@@ -100,36 +130,6 @@ export default function TecnologiesCard() {
                         </TooltipTrigger>
                         <TooltipContent>
                             <p>React Framework</p>
-                        </TooltipContent>
-                    </Tooltip>
-
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Button
-                                asChild
-                                className="p-1 flex items-center justify-center h-16 w-16"
-                                size="icon"
-                            >
-                                <SiTailwindcss size={30} />
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            <p>Tailwind CSS</p>
-                        </TooltipContent>
-                    </Tooltip>
-                   
-                    <Tooltip>
-                        <TooltipTrigger asChild>
-                            <Button
-                                asChild
-                                className="p-1 flex items-center justify-center h-16 w-16"
-                                size="icon"
-                            >
-                                <VscVscode size={30} />
-                            </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                            <p>VSCode</p>
                         </TooltipContent>
                     </Tooltip>
                 </TooltipProvider>
