@@ -30,23 +30,13 @@ export default function AbouMe() {
                         </div>
 
                         <p className="mb-9 text-lg leading-relaxed flex-1">
-                            Hi, I&apos;m Wesley Silva a front-end developer from Brazil currently living in
-                            Ireland. With two years of hands-on experience and a passion for freelancing,
-                            I love crafting SaaS products and modern web applications. I always reach
-                            for the latest tools to create secure, lightweight sites with great UI/UX
-                            and engaging designs, bringing a fresh perspective to every project.
-                            <br />
+                            Hi, I’m Wesley Silva, a Brazilian full-stack developer currently living in Ireland. I have 3 years of hands-on experience building modern web applications, with a strong background in front-end development using React, Next.js, and TypeScript.
                             <br />
                             I&apos;m a team player who enjoys collaborating and tackling challenges with a
                             positive attitude. My Brazilian roots influence my approach: I solve
-                            problems with creativity, persistence, and a smile. My main tools include
-                            Next.js, TypeScript, HTML, CSS, Tailwind, Neon Database, and UI/UX
-                            strategies.
+                            problems with creativity, persistence, and a smile. I enjoy creating clean, user-focused interfaces and turning ideas into practical digital products. At the same time, I’m growing my back-end skills with Java, Spring Boot, REST APIs, and database design.
                             <br />
-                            <br />
-                            Right now, I&apos;m studying software engineering with a focus on Java, and in my
-                            free time, I like to experiment with Golang. Whether I&apos;m working solo or
-                            with a group, I aim to make every project a showcase for new ideas and
+                            I’m currently studying Software Engineering, which helps me build with a stronger foundation in architecture, problem-solving, and scalable systems. I’m looking for opportunities where I can contribute, keep learning, and grow as a full-stack developer. I aim to make every project a showcase for new ideas and
                             user-focused solutions.
                         </p>
                     </div>
