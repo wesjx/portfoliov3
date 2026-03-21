@@ -8,7 +8,7 @@ import LoadingIndicator from "./loading-spiner";
 
 export default function AboutMeCard() {
 
-    const textFrontEnd: string = "<Front-end developer />"
+    const textFrontEnd: string = "<Full-stack developer />"
     return (
 
         <Card className="sm:col-span-1 md:col-span-2 bg-chart-3">
@@ -24,7 +24,7 @@ export default function AboutMeCard() {
                 </div>
                 <div className="flex flex-col items-end-safe">
                     <p className="pt-6 text-lg text-chart-5">
-                        I am Wesley, a front-end developer with 2 years of experience applying best practices in front-end development. I have a passion for UI/UX and design, aiming to deliver clean and user-friendly projects while building strong and secure solutions.
+                        I’m Wesley, a full-stack developer with 3 years of experience building modern web applications. I’m passionate about UI/UX and currently expanding my back-end expertise with Java, Spring Boot, and a degree in Software Engineering.
                     </p>
                     <Link href="/about">
                         <Button>
