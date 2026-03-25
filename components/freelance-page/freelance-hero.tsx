@@ -66,7 +66,7 @@ export function Hero() {
           {/* Right Content - Stats & Visual Block */}
           <div className="relative">
             {/* Main Visual Block */}
-            <div className="bg-foreground text-background p-6 sm:p-8 rounded-[5px] border-2 border-border shadow-[8px_8px_0px_0px_var(--main)]">
+            <div className="bg-chart-3 text-background p-6 sm:p-8 rounded-[5px] border-2 border-border shadow-[8px_8px_0px_0px_var(--main)]">
               <div className="grid grid-cols-3 gap-4 sm:gap-6">
                 {stats.map((stat) => (
                   <div key={stat.label} className="text-center">
@@ -83,10 +83,9 @@ export function Hero() {
 
             {/* Decorative Elements */}
             <div className="absolute -top-4 -right-4 w-16 h-16 bg-main rounded-[5px] border-2 border-border shadow-[4px_4px_0px_0px_var(--shadow)] hidden sm:block" />
-
             
             {/* Code snippet decoration */}
-            <div className="absolute -bottom-4 right-8 bg-secondary-background border-2 border-border rounded-[5px] shadow-[3px_3px_0px_0px_var(--shadow)] p-3 hidden lg:block">
+            <div className="absolute -bottom-4 right-8 bg-chart-1 border-2 border-border rounded-[5px] shadow-[3px_3px_0px_0px_var(--shadow)] p-3 hidden lg:block">
               <code className="text-xs font-mono text-foreground/80">
                 {"{ quality: 'premium' }"}
               </code>

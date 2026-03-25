@@ -17,7 +17,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content - Visual */}
           <div className="relative order-2 lg:order-1">
-            <div className="aspect-square max-w-md mx-auto lg:mx-0 bg-main rounded-[5px] border-2 border-border shadow-[8px_8px_0px_0px_var(--shadow)] flex items-center justify-center">
+            <div className="aspect-square max-w-md mx-auto lg:mx-0 bg-chart-3 rounded-[5px] border-2 border-border shadow-[8px_8px_0px_0px_var(--shadow)] flex items-center justify-center">
               <div className="text-center p-8">
                 <div className="w-50 h-50 sm:w-50 sm:h-50 mx-auto bg-foreground rounded-[5px] border-2 border-border shadow-[4px_4px_0px_0px_var(--secondary-background)] flex items-center justify-center mb-6">
                   <span className="">
@@ -56,9 +56,9 @@ export function About() {
               {t.about.values.map((value, index) => {
                 const Icon = valueIcons[index]
                 return (
-                  <Card key={value.title} className="bg-background">
+                  <Card key={value.title} className="--main-foreground">
                     <CardContent className="p-4 sm:p-5">
-                      <div className="w-10 h-10 bg-main rounded-[5px] border-2 border-border flex items-center justify-center mb-3 shadow-[2px_2px_0px_0px_var(--shadow)]">
+                      <div className="w-10 h-10 bg-chart-1 rounded-[5px] border-2 border-border flex items-center justify-center mb-3 shadow-[2px_2px_0px_0px_var(--shadow)]">
                         <Icon className="w-5 h-5" />
                       </div>
                       <h3 className="font-bold text-sm mb-1">{value.title}</h3>
