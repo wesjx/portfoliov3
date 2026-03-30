@@ -5,6 +5,8 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 
 export default function Footer() {
+      const currentYear = new Date().getFullYear()
+
     return (
         <footer className="border-t-4 border-black py-8 mt-12" >
             <div className="max-w-6xl mx-auto items-top p-6 flex md:flex-row flex-col justify-between">
@@ -61,7 +63,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="text-center border-t border-black py-8 mt-12">
-                <p>© 2025 Wesley Silva. All rights reserved.</p>
+                <p>© {currentYear} Wesley Silva. All rights reserved.</p>
             </div>
         </footer>
     )
