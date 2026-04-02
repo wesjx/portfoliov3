@@ -28,10 +28,10 @@ export function Services() {
             return (
               <Card
                 key={service.title}
-                className="group hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_var(--shadow)] transition-all duration-150"
+                className="pt-4 pb-0 group hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_var(--shadow)] transition-all duration-150"
               >
                 <CardHeader className="pb-4">
-                  <div className={`w-14 h-14 ${bgColor} rounded-[5px] border-2 border-border flex items-center justify-center mb-4 shadow-[3px_3px_0px_0px_var(--shadow)]`}>
+                  <div className={`w-14 h-14 bg-chart-1 rounded-[5px] border-2 border-border flex items-center justify-center mb-4 shadow-[3px_3px_0px_0px_var(--shadow)]`}>
                     <Icon className="w-7 h-7" />
                   </div>
                   <CardTitle>{service.title}</CardTitle>
@@ -41,8 +41,8 @@ export function Services() {
                     {service.description}
                   </p>
                 </CardContent>
-                <CardFooter className="pt-4 border-t-2 border-border">
-                  <div className="flex items-center gap-2 text-sm font-bold text-main">
+                <CardFooter className="p-4 --main-foreground pt-4 border-t-2 border-border bg-chart-1">
+                  <div className="flex items-center gap-2 text-sm font-bold">
                     <ArrowRight className="w-4 h-4" />
                     {service.value}
                   </div>
