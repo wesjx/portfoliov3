@@ -15,7 +15,7 @@ import { usePathname } from 'next/navigation';
 const menuItems = [{
     name: 'Home',
     link: '/'
-}, { name: 'About', link: '/about' }, { name: 'Projects', link: '/projects' }, { name: 'Contact', link: '/contact' }];
+}, { name: 'About', link: '/about' }, { name: 'Projects', link: '/projects' }, { name: 'Contact', link: '/contact' }, { name: 'Freelancer', link: '/freelance' }];
 
 export default function DrawerMenuMobile() {
     const pathname = usePathname();
