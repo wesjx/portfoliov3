@@ -20,7 +20,7 @@ export default function FreelancePage() {
                 <About />
                 <Services />
                 <Differentiators />
-                <Projects/>
+                {/* <Projects/> */}
                 <Contact/>
                 </main>
                 <Footer/>
