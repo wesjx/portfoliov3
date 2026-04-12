@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Mono, Inter, Roboto, Archivo_Black } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "../components/theme-provider";
+import { Analytics } from "@vercel/analytics/next"
 
 const ibmPlexMono = IBM_Plex_Mono({
   subsets: ['latin'],
@@ -49,6 +50,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Analytics/>
         </ThemeProvider>
       </body>
     </html>
