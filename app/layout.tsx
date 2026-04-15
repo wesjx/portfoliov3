@@ -30,7 +30,7 @@ const archivo_black = Archivo_Black({
 
 export const metadata: Metadata = {
   title: "Wesley Silva",
-  description: "Front-end developer",
+  description: "Full-stack developer",
 };
 
 export default function RootLayout({
